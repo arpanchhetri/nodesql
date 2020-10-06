@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/abhishekpatel946/Budget-Manager-app">
+  <a href="https://github.com/mycrazyfish/nodesql">
     <img src="../api/Image/logo-readme.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">NODESQL</h3>
