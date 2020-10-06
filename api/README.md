@@ -51,9 +51,6 @@ Here is details about the NodeSQL
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [JavaScript](https://www.javascript.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [HTML](https://html.com/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <!-- GETTING STARTED -->
 
@@ -67,6 +64,11 @@ To get a local copy up and running follow these simple example steps.
 1. Clone the repo
 ```sh
 git clone https://github.com/mycrazyfish/nodesql
+```
+
+2. Goto the NODESQL
+```sh
+cd nodesql
 ```
 
 2. Use the package manager npm to install and run this API.
@@ -118,7 +120,7 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 <!-- Here you can add license link  -->
-Distributed under the License. See [`LICENSE`](https://github.com/mycrazyfish/nodesql) for more information.
+Distributed under the License. See [`LICENSE`](https://choosealicense.com/licenses/mit/) for more information.
 
 <!-- CONTACT -->
 
