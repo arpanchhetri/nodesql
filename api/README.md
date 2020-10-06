@@ -35,7 +35,7 @@
 <p align="center">
   <a href="https://github.com/mycrazyfish/nodesql">
     <!-- You can add logo for your NodeSQL -->
-    <img src="" alt="Logo" width="100" height="100">
+    <!-- <img src="" alt="Logo" width="100" height="100"> -->
   </a>
 </p>
 
@@ -90,7 +90,7 @@ npm start
 Here is the description about...
 - add some features.
 - use pictures for demo
-- or use giphy images
+- or use gif images
 
 <!-- Here you can add documentation link for the more user-understanble -->
 _For more examples, please refer to the [Documentation]()_
@@ -117,7 +117,8 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+<!-- Here you can add license link  -->
+Distributed under the License. See [`LICENSE`]("#") for more information.
 
 <!-- CONTACT -->
 
