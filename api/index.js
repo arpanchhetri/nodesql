@@ -1,7 +1,8 @@
 // Require
 // =============================================================================
 const express = require('express');
-const Logger = require("./src/loaders/logger");
+const loaders = require("./src/loaders/index");
+const Logger = loaders.Logger;
 
 // Configuration
 // =============================================================================
