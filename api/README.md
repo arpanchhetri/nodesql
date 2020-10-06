@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GitHub license](https://choosealicense.com/licenses/mit/)]
+[![GitHub license](https://img.shields.io/github/license/mycrazyfish/nodesql)](https://github.com/mycrazyfish/nodesql)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -10,31 +10,16 @@
   <a href="https://github.com/abhishekpatel946/Budget-Manager-app">
     <img src="../api/Image/logo-readme.png" alt="Logo" width="80" height="80">
   </a>
-
   <h3 align="center">NODESQL</h3>
-
-  <p align="center">
-    NODESQL API/README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/abhishekpatel946/Budget-Manager-app"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/abhishekpatel946/Budget-Manager-app">View Demo</a>
-    ·
-    <a href="https://github.com/abhishekpatel946/Budget-Manager-app/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/abhishekpatel946/Budget-Manager-app/issues">Request Feature</a>
-  </p>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [Budget-Manager-app](#budget-manager-app)
+- [NodeSQL](#NodeSQL)
     - [Built With](#built-with)
   - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Usage](#usage)
   - [Roadmap](#roadmap)
@@ -48,28 +33,27 @@
 ## About The Project
 
 <p align="center">
-  <a href="https://github.com/abhishekpatel946/Budget-Manager-app">
-    <img src="App/Budget-Manager-icon.jpg" alt="Logo" width="100" height="100">
+  <a href="https://github.com/mycrazyfish/nodesql">
+    <!-- You can add logo for your NodeSQL -->
+    <img src="" alt="Logo" width="100" height="100">
   </a>
 </p>
 
-# Budget-Manager-app
+# Node MSSQL Rest API Boilerplate
+Here is details about the NodeSQL
+- features
+- how it works
+- some cool features
 
-Our app shows, the balance, the income and the outcome. it also has a dashboard where the user can add a new entry (an income or an expense), he can toggle between the income list (that show only all income entries) and the expenses list (that shows only the outcome entries) and all list that shows all the entries.
-
-The user can edit or delete an entry.
-
-Our app has a chart, so the user can easily compare the income and outcome.
-
-The user's income and expense entry list is stored in the local storage, so when he refreshes the page, or reboot his machine, he can always find his data there.
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [VanilaJS](http://vanilla-js.com/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://www.javascript.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [HTML](https://html.com/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <!-- GETTING STARTED -->
 
@@ -78,44 +62,44 @@ This section should list any major frameworks that you built your project using.
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- clone
-
-```sh
-git clone https://github.com/abhishekpatel946/Budget-Manager-app.git
-```
-
-- download
-  [click here](https://github.com/abhishekpatel946/Budget-Manager-app/raw/master/App/Budget%20Manager.apk)
-
 ### Installation
 
 1. Clone the repo
-
 ```sh
-git clone https://github.com/abhishekpatel946/Budget-Manager-app
+git clone https://github.com/mycrazyfish/nodesql
+```
+
+2. Use the package manager npm to install and run this API.
+```sh
+npm i
+```
+
+3. Run with nodemon to monitor changes and restart
+```sh
+npm run dev
+```
+
+4. Run in prod mode
+```sh
+npm start
 ```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+Here is the description about...
+- add some features.
+- use pictures for demo
+- or use giphy images
 
-|                                                                                                 |                                                                                                             |
-| :---------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-|     ![all!](https://github.com/abhishekpatel946/Budget-Manager-app/blob/master/img/all.jpg)     |     ![all_empty!](https://github.com/abhishekpatel946/Budget-Manager-app/blob/master/img/all_empty.jpg)     |
-| ![expense!](https://github.com/abhishekpatel946/Budget-Manager-app/blob/master/img/expense.jpg) | ![expense_empty!](https://github.com/abhishekpatel946/Budget-Manager-app/blob/master/img/expense_empty.jpg) |
-|  ![income!](https://github.com/abhishekpatel946/Budget-Manager-app/blob/master/img/income.jpg)  |  ![income_empty!](https://github.com/abhishekpatel946/Budget-Manager-app/blob/master/img/income_empty.jpg)  |
-
+<!-- Here you can add documentation link for the more user-understanble -->
 _For more examples, please refer to the [Documentation]()_
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-See the [open issues](https://github.com/abhishekpatel946/Budget-Manager-app/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mycrazyfish/nodesql) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -139,7 +123,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Link: [https://github.com/abhishekpatel946/Budget-Manager-app](https://github.com/abhishekpatel946/Budget-Manager-app)
+Project Link: [https://github.com/mycrazyfish/nodesql](https://github.com/mycrazyfish/nodesql)
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -148,18 +132,16 @@ Project Link: [https://github.com/abhishekpatel946/Budget-Manager-app](https://g
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 - [Img Shields](https://shields.io)
 - [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/abhishekpatel946/Budget-Manager-app.svg?style=flat
-[contributors-url]: https://github.com/abhishekpatel946/Budget-Manager-app/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/abhishekpatel946/Budget-Manager-app.svg?style=flat
-[forks-url]: https://github.com/abhishekpatel946/Budget-Manager-app/network/members
-[stars-shield]: https://img.shields.io/github/stars/abhishekpatel946/Budget-Manager-app.svg?style=flat
-[stars-url]: https://github.com/abhishekpatel946/Budget-Manager-app/stargazers
-[issues-shield]: https://img.shields.io/github/issues/abhishekpatel946/Budget-Manager-app.svg?style=flat
-[issues-url]: https://github.com/abhishekpatel946/Budget-Manager-app/issues
-[product-screenshot]: App/Budget-Manager-icon.jpg
+[contributors-shield]: https://img.shields.io/github/contributors/mycrazyfish/nodesql.svg?style=flat
+[contributors-url]: https://github.com/mycrazyfish/nodesql/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mycrazyfish/nodesql.svg?style=flat
+[forks-url]: https://github.com/mycrazyfish/nodesql/network/members
+[stars-shield]: https://img.shields.io/github/stars/mycrazyfish/nodesql.svg?style=flat
+[stars-url]: https://github.com/mycrazyfish/nodesql/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mycrazyfish/nodesql.svg?style=flat
+[issues-url]: https://github.com/mycrazyfish/nodesql/issues
