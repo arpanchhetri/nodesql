@@ -1,0 +1,19 @@
+version: '3'
+services:
+  api:
+    image: nodesql-api
+    build: .
+    networks:
+      - backend
+    ports:
+      - "8888:8888"
+
+  web-cli:
+    image: nodesql-api
+    networks:
+      - backend
+    command: sh
+
+networks:
+  backend:
+    driver: bridge

@@ -86,6 +86,27 @@ npm run dev
 npm start
 ```
 
+### Docker install
+
+Install Docker and docker-compose first.
+
+1. Once Docker is running, to run nodesql api, type this in your Command Prompt / Terminal / shell to build the docker image:
+```sh
+docker-compose build
+```
+
+2. After building the docker image you can run the container using the folling command:
+```sh
+docker-compose up
+```
+
+3. To run the above command in background use this instead:
+```sh
+docker-compose up -d
+```
+
+
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
