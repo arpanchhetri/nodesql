@@ -41,9 +41,9 @@
 
 # Node MSSQL Rest API Boilerplate
 Here is details about the NodeSQL
-- features
-- how it works
-- some cool features
+- add features
+- add how it works
+- add some cool features
 
 
 ### Built With
@@ -118,7 +118,7 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 <!-- Here you can add license link  -->
-Distributed under the License. See [`LICENSE`]("#") for more information.
+Distributed under the License. See [`LICENSE`](https://github.com/mycrazyfish/nodesql) for more information.
 
 <!-- CONTACT -->
 
