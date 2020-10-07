@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      dockerfile: Dockerfile
+      context: ./api
+    ports:
+    - "8888:8888"
+  frontend:
+    build:
+      dockerfile: Dockerfile
+      context: ./frontend
+    ports:
+    - "4200:4200"
