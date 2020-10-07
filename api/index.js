@@ -1,11 +1,14 @@
 // Require
 // =============================================================================
 const express = require('express');
+const loaders = require("./src/loaders/index");
+const Logger = loaders.Logger;
 
 // Configuration
 // =============================================================================
 const port = 8888;
 const hostname = '0.0.0.0';
+const logger = new Logger('App');
 
 class Server {
     run() {
@@ -28,7 +31,7 @@ class Server {
         apiApp.use(prefix, apiRouter);
 
         const apiServer = apiApp.listen(port, hostname, () => {
-            console.log(`-------- API Configured --------\n> URL: http://${hostname}:${port}${prefix}\n--------------------------------`)
+            logger.info(`-------- API Configured --------\n> URL: http://${hostname}:${port}${prefix}\n--------------------------------`)
         });
 
   }
