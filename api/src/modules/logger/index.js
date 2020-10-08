@@ -26,6 +26,7 @@ class Logger {
           )
         }),
         new winston.transports.File({filename: './logs/logs.log'}),
+        new winston.transports.File({filename: './logs/trace.log', level: 'debug'}),
         new winston.transports.File({filename: './logs/errors.log', level: 'error'})
       ]
     });
