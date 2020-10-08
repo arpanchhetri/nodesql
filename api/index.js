@@ -1,41 +1,5 @@
-// Require
-// =============================================================================
-const express = require('express');
-const loaders = require("./src/loaders/index");
-const Logger = loaders.Logger;
 
-// Configuration
-// =============================================================================
-const port = 8888;
-const hostname = '0.0.0.0';
-const logger = new Logger('App');
+const Server = require("./src/loaders/index").Server;
 
-class Server {
-    run() {
-        // Create Express apps
-        var apiApp = express();
-
-        // Request mapping
-        apiApp.use(express.json());
-
-        // Routers to be used with the api
-        var apiRouter = express.Router();
-
-        apiRouter.get('/', (req, res) => {
-            res.json({ message: 'Hello, world!' });
-        });
-
-        // REGISTER OUR ROUTES (all routes prefixed)
-        // =============================================================================
-        const prefix = '';
-        apiApp.use(prefix, apiRouter);
-
-        const apiServer = apiApp.listen(port, hostname, () => {
-            logger.info(`-------- API Configured --------\n> URL: http://${hostname}:${port}${prefix}\n--------------------------------`)
-        });
-
-  }
-}
-
-server = new Server();
-server.run();
+app = new Server();
+app.run();
